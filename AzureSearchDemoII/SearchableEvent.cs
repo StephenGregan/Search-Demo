@@ -22,7 +22,7 @@ namespace AzureSearchDemoII
         public GeographyPoint Geolocation { get; set; }
         public int? Rating { get; set; }
 
-        public static IList<Field> GetSearchableEvents()
+        public static IList<Field> GetSearchableEventFields()
         {
             return new List<Field>()
             {

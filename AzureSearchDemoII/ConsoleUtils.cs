@@ -63,7 +63,7 @@ namespace AzureSearchDemoII
             }
         }
 
-        public static int ReadIntegerinput(string prompt)
+        public static int ReadIntegerInput(string prompt)
         {
             return ReadIntegerInput(prompt, allowNull: false).Value;
         }
